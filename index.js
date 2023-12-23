@@ -49,45 +49,21 @@
 // 5-masala
 // So'zlardan tashkil topgan massivning oxirgi harflaridan iborat yangi massiv hosil qiladigan funksiya yozing (forEach)
 
-// 1 - #
-
 // let massiv = ["orange", "banana", "kiwi", "lemon"];
 // let shortNewMassiv = [];
 
-// function headWordsMassiv(arg) {
+// function lastWordsMassiv(arg) {
 //     for (let i = 0; i < arg.length; i++) {
 //             let sozlar = arg[i];
-//             let headletter = sozlar.charAt(sozlar.length - 1);
+//             let lastLetter = sozlar.charAt(sozlar.length - 1);
 
-//             shortNewMassiv.push(headletter);
+//             shortNewMassiv.push(lastLetter);
 //         }
 //         return shortNewMassiv;
 // }
 
-//     let yangiMassiv = headWordsMassiv(massiv);
+//     let yangiMassiv = lastWordsMassiv(massiv);
 //     console.log(yangiMassiv);
-
-// 2 - #
-
-// let array = ["apple", "banana", "kiwi", "lemon"];
-// let newMassiv = [];
-
-// array.forEach((value, index, array) => {
-//     function lastWordsMassiv(value) {
-//         for (let i = 0; i < value.length; i++) {
-//                 let sozlar = value[i];
-//                 let lastLetter = sozlar.charAt(sozlar.length - 1);
-    
-//                 shortNewMassiv.push(lastLetter);
-//             }
-//             return shortNewMassiv;
-//     }
-
-    
-//     let yangiMassiv = lastWordsMassiv(sozlar);
-//     console.log(yangiMassiv);
-
-// });
 
 // 6-masala
 // Sonlardan tashkil topgan massiv elementlari orasidan tub larining yigindisini topuvchi funksiya yozing (for...of)
