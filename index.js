@@ -92,5 +92,17 @@
 // 6-masala
 // Sonlardan tashkil topgan massiv elementlari orasidan tub larining yigindisini topuvchi funksiya yozing (for...of)
 
-let massiv = [2, 3, 5, 1, 4, 6, 7, 9, 8, 11, 12];
+// let massiv = [2, 4, 3, 6, 5, 7, 9, 11, 10];
 
+// function tubSonlar(arg){
+//     let sum = 2;
+
+//     for (const tubSon of arg) {
+//         if (tubSon % 2 == 1){
+//             sum += tubSon
+//         }
+//     }
+//     return sum
+// }
+
+// console.log(tubSonlar(massiv));
